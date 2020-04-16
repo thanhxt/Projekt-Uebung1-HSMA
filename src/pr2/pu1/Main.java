@@ -21,6 +21,8 @@ public class Main {
 
         System.out.println(z.toString());
 
+        KomplexeZahlKlein1 f = new KomplexeZahlKlein1(3,12);;
+
     }
 
 

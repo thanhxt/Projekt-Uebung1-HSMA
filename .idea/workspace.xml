@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7177f12-d1ec-42b1-aeca-baf0f2dcae77" name="Default Changelist" comment="" />
+    <list default="true" id="a7177f12-d1ec-42b1-aeca-baf0f2dcae77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahlKlein1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahlKlein1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr2/pu1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu1/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a02dEkZ9YWlvwhkzwyEcw4vQyW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,26 +70,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1150" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586211068901" />
-    <state width="914" height="229" key="GridCell.Tab.0.bottom" timestamp="1586704105883">
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom" timestamp="1587063989662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586704105883" />
-    <state width="914" height="229" key="GridCell.Tab.0.center" timestamp="1586704105883">
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587063989662" />
+    <state width="1877" height="229" key="GridCell.Tab.0.center" timestamp="1587063989662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586704105883" />
-    <state width="914" height="229" key="GridCell.Tab.0.left" timestamp="1586704105883">
+    <state width="1877" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587063989662" />
+    <state width="1877" height="229" key="GridCell.Tab.0.left" timestamp="1587063989662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586704105883" />
-    <state width="914" height="229" key="GridCell.Tab.0.right" timestamp="1586704105883">
+    <state width="1877" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587063989662" />
+    <state width="1877" height="229" key="GridCell.Tab.0.right" timestamp="1587063989662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586704105883" />
-    <state x="1032" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586544935275">
+    <state width="1877" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587063989662" />
+    <state x="1032" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587059507775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586544935275" />
+    <state x="1032" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587059507775" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587064011254">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587064011254" />
     <state x="685" y="140" key="new project wizard" timestamp="1586210536366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
