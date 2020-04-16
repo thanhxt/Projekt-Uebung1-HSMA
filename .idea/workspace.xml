@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7177f12-d1ec-42b1-aeca-baf0f2dcae77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahlKlein2.java" afterDir="false" />
+    <list default="true" id="a7177f12-d1ec-42b1-aeca-baf0f2dcae77" name="Default Changelist" comment="Aufg 6 Fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PU1/pr2/pu1/KomplexeZahl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU1/pr2/pu1/KomplexeZahl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PU1/pr2/pu1/KomplexeZahlKlein1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU1/pr2/pu1/KomplexeZahlKlein1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PU1/pr2/pu1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU1/pr2/pu1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahlKlein1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahlKlein1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahlKlein2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu1/KomplexeZahlKlein2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pr2/pu1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr2/pu1/ReelleZahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu1/ReelleZahl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,22 +103,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1150" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586211068901" />
-    <state width="1877" height="229" key="GridCell.Tab.0.bottom" timestamp="1587068317020">
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom" timestamp="1587068941553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587068317020" />
-    <state width="1877" height="229" key="GridCell.Tab.0.center" timestamp="1587068317020">
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587068941553" />
+    <state width="1877" height="229" key="GridCell.Tab.0.center" timestamp="1587068941553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587068317020" />
-    <state width="1877" height="229" key="GridCell.Tab.0.left" timestamp="1587068317020">
+    <state width="1877" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587068941553" />
+    <state width="1877" height="229" key="GridCell.Tab.0.left" timestamp="1587068941553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587068317020" />
-    <state width="1877" height="229" key="GridCell.Tab.0.right" timestamp="1587068317020">
+    <state width="1877" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587068941553" />
+    <state width="1877" height="229" key="GridCell.Tab.0.right" timestamp="1587068941553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587068317020" />
+    <state width="1877" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587068941553" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587067755134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -148,9 +147,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="685" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586210536366" />
-    <state x="998" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1585858510092">
+    <state x="998" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587068926011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585858510092" />
+    <state x="998" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587068926011" />
   </component>
 </project>

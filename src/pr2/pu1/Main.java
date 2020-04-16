@@ -2,6 +2,9 @@ package pr2.pu1;
 
 public class Main {
 
+    /**
+     * static doubles for our static methods
+     */
     private static double im,re;
 
     public static void main(String[] args) {
@@ -12,17 +15,32 @@ public class Main {
 
         System.out.println("x = " + x.toString());
 
+        /**
+         * Addition of x and y
+         */
         System.out.println(x.add(y).toString());
+        /**
+         * Multiplication of x and y
+         */
         System.out.println(x.prod(y).toString());
 
-        System.out.println(KomplexeZahl.adds(x));
-
         ReelleZahl z = new ReelleZahl(2, 3);
-
+        /**
+         * Prints only the Real part
+         */
         System.out.println(z.toString());
 
-        KomplexeZahlKlein1 f = new KomplexeZahlKlein1(3,10);;
+        /**
+         * Exception handling
+         * if im > 10 throws Exception
+         */
+        KomplexeZahlKlein1 f = new KomplexeZahlKlein1(3,11);
 
+        /**
+         * Exception handling
+         * if im > 10 throws self invented Exception
+         */
+        KomplexeZahlKlein2 g = new KomplexeZahlKlein2(3,10);
         System.out.println();
 
         /**
@@ -61,6 +79,11 @@ public class Main {
         return sum;
     }*/
 
+    /**
+     * Same as KomplexeZahl.add but static
+     * @param addend
+     * @return
+     */
     public static KomplexeZahl adds(KomplexeZahl addend){
         KomplexeZahl add = new KomplexeZahl(
                 re + addend.getRe(),
@@ -69,7 +92,11 @@ public class Main {
         return add;
     }
 
-
+    /**
+     * same as KomplexeZahl.prod but static
+     * @param multi
+     * @return
+     */
     public static KomplexeZahl prod(KomplexeZahl multi){
         KomplexeZahl mult = new KomplexeZahl(
                 (re * multi.getRe()) - (im * multi.getIm()),

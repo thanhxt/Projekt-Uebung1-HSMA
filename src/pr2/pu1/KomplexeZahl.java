@@ -5,17 +5,19 @@ public class KomplexeZahl {
     private double im;
     private double re;
 
-    private static double imm;
-    private static double ree;
-
+    /**
+     * constructor for our input
+     * @param re = re
+     * @param im = im
+     */
     public KomplexeZahl(double re, double im){
         this.im = im;
         this.re = re;
     }
 
     /**
-     * String methos
-     * @returns real and imaginary number
+     * String methods
+     * @return real and imaginary number
      */
     public String toString(){
         return getRe() + " + " + getIm() + 'i';
@@ -47,32 +49,17 @@ public class KomplexeZahl {
         return mult;
     }
 
+    /**
+     * setter and getter Methods
+     * @return re and im
+     */
+
     public double getRe() {
         return re;
     }
 
     public double getIm(){
         return im;
-    }
-
-    /**
-     * not finished
-     * @param addend
-     * @return
-     */
-    public static KomplexeZahl adds(KomplexeZahl addend){
-       KomplexeZahl add = new KomplexeZahl(
-               ree += addend.re,
-               imm += addend.im
-       );
-       return add;
-    }
-
-    public static double getImm(){
-        return imm;
-    }
-    public static double getRee(){
-        return ree;
     }
 
 }

@@ -15,8 +15,6 @@ public class KomplexeZahlKlein2 extends ReelleZahl {
 
     /**
      * Same as KomplexeZahlKlein1 but with a twist by using our own Exception
-     * @param re
-     * @param im
      */
     public KomplexeZahlKlein2(double re, double im) {
         super(re, im);

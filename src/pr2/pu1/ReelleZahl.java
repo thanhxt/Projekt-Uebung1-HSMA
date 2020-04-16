@@ -7,7 +7,7 @@ public class ReelleZahl extends KomplexeZahl {
 
     /**
      * String method
-     * @returns only the real number
+     * @return only the real number
      */
     public String toString() {
         return  "Reeler Teil: " + getRe();
