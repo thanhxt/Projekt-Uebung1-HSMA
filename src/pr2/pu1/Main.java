@@ -59,25 +59,7 @@ public class Main {
         im = 4.5;
         System.out.println(prod(y).toString());
     }
-
-
-
-
-    /**
-     * this parameter ersetzen, bzw alternative suchen
-     * da statische methoden nur statische variablen zugreifen können.
-     * @param addend
-     * @return
-     */
-
-    /*
-    public static KomplexeZahl add(KomplexeZahl addend){
-
-        KomplexeZahl sum = new KomplexeZahl(
-            im +
-        );
-        return sum;
-    }*/
+    
 
     /**
      * Same as KomplexeZahl.add but static
