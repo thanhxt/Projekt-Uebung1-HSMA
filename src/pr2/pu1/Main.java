@@ -11,7 +11,7 @@ public class Main {
         KomplexeZahl y = new KomplexeZahl(3,4);
 
         System.out.println("x = " + x.toString());
-        ;
+
         System.out.println(x.add(y).toString());
         System.out.println(x.prod(y).toString());
 
@@ -21,8 +21,25 @@ public class Main {
 
         System.out.println(z.toString());
 
-        KomplexeZahlKlein1 f = new KomplexeZahlKlein1(3,12);;
+        KomplexeZahlKlein1 f = new KomplexeZahlKlein1(3,10);;
 
+        System.out.println();
+
+        /**
+         * static addition
+         */
+        re = 2.5;
+        im = 4.5;
+        System.out.println(adds(y).toString() +"\n");
+
+
+        /**
+         * static multiplication
+         */
+
+        re = 2.5;
+        im = 4.5;
+        System.out.println(prod(y).toString());
     }
 
 
@@ -43,4 +60,21 @@ public class Main {
         );
         return sum;
     }*/
+
+    public static KomplexeZahl adds(KomplexeZahl addend){
+        KomplexeZahl add = new KomplexeZahl(
+                re + addend.getRe(),
+                im + addend.getIm()
+        );
+        return add;
+    }
+
+
+    public static KomplexeZahl prod(KomplexeZahl multi){
+        KomplexeZahl mult = new KomplexeZahl(
+                (re * multi.getRe()) - (im * multi.getIm()),
+                (re * multi.getIm()) + (im * multi.getRe())
+        );
+        return mult;
+    }
 }

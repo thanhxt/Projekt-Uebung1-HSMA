@@ -28,16 +28,16 @@ public class KomplexeZahl {
      */
     public KomplexeZahl add(KomplexeZahl addend){
         KomplexeZahl sum = new KomplexeZahl(
-                this.im + addend.im,
-                this.re + addend.re
+                this.re + addend.re,
+                this.im + addend.im
         );
         return sum;
     }
 
     /**
-     * @param this. (x1,y1)
+     * @param this (x1,y1)
      * @param multi (x2,y2)
-     * @return im(x1∗x2) − (y1∗y2) , re(x1∗y2) + (y1∗x2)
+     * @return re(x1∗x2) − (y1∗y2) , im(x1∗y2) + (y1∗x2)
      */
     public KomplexeZahl prod(KomplexeZahl multi){
         KomplexeZahl mult = new KomplexeZahl(
@@ -61,11 +61,11 @@ public class KomplexeZahl {
      * @return
      */
     public static KomplexeZahl adds(KomplexeZahl addend){
-        KomplexeZahl summ = new KomplexeZahl(
-                imm += addend.im,
-                ree += addend.re
-        );
-        return summ;
+       KomplexeZahl add = new KomplexeZahl(
+               ree += addend.re,
+               imm += addend.im
+       );
+       return add;
     }
 
     public static double getImm(){
