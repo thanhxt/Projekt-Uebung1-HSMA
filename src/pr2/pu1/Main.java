@@ -59,7 +59,7 @@ public class Main {
         im = 4.5;
         System.out.println(prod(y).toString());
     }
-    
+
 
     /**
      * Same as KomplexeZahl.add but static

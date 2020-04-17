@@ -1,5 +1,5 @@
 package pr2.pu1;
-import java.rmi.NotBoundException;
+
 
 /**
  * inner class that extends the RuntimeException class
