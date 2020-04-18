@@ -34,7 +34,7 @@ public class Main {
          * Exception handling
          * if im > 10 throws Exception
          */
-        KomplexeZahlKlein1 f = new KomplexeZahlKlein1(3,11);
+        KomplexeZahlKlein1 f = new KomplexeZahlKlein1(3,10);
 
         /**
          * Exception handling
@@ -58,6 +58,8 @@ public class Main {
         re = 2.5;
         im = 4.5;
         System.out.println(prod(y).toString());
+
+        x.main();
     }
 
 

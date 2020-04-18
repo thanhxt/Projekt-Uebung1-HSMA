@@ -49,6 +49,11 @@ public class KomplexeZahl {
         return mult;
     }
 
+    public void main(){
+        KomplexeZahl x = new KomplexeZahl(2.5,4.5);
+        System.out.print("x = " + x.toString());
+    }
+
     /**
      * setter and getter Methods
      * @return re and im
