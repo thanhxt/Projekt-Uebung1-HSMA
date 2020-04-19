@@ -5,6 +5,8 @@ public class KomplexeZahl {
     private double im;
     private double re;
 
+    private static double ree,imm;
+
     /**
      * constructor for our input
      * @param re = re
@@ -54,7 +56,7 @@ public class KomplexeZahl {
         System.out.print("x = " + x.toString());
     }
 
-    
+
     /**
      * setter and getter Methods
      * @return re and im
@@ -66,6 +68,42 @@ public class KomplexeZahl {
 
     public double getIm(){
         return im;
+    }
+
+
+    public static void setRee(double x){
+        ree = x;
+    }
+
+    public static void setImm(double x){
+        imm = x;
+    }
+
+
+    /**
+     * Same as KomplexeZahl.add but static
+     * @param addend
+     * @return
+     */
+    public static KomplexeZahl adds(KomplexeZahl addend){
+        KomplexeZahl adds = new KomplexeZahl(
+                ree + addend.getRe(),
+                imm + addend.getIm()
+        );
+        return adds;
+    }
+
+    /**
+     * same as KomplexeZahl.prod but static
+     * @param multi
+     * @return
+     */
+    public static KomplexeZahl prods(KomplexeZahl multi){
+        KomplexeZahl mults = new KomplexeZahl(
+                (ree * multi.getRe()) - (imm * multi.getIm()),
+                (ree * multi.getIm()) + (imm * multi.getRe())
+        );
+        return mults;
     }
 
 }

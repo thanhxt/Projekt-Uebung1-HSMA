@@ -46,46 +46,25 @@ public class Main {
         /**
          * static addition
          */
-        re = 2.5;
-        im = 4.5;
-        System.out.println(adds(y).toString() +"\n");
+        KomplexeZahl.setRee(2.5);
+        KomplexeZahl.setImm(4.5);
+
+        System.out.println(KomplexeZahl.adds(y).toString()+"\n");
+
 
 
         /**
          * static multiplication
          */
 
-        re = 2.5;
-        im = 4.5;
-        System.out.println(prod(y).toString());
+        KomplexeZahl.setRee(2.5);
+        KomplexeZahl.setImm(4.5);
+
+        System.out.println(KomplexeZahl.prods(y).toString());
 
         x.main();
     }
 
 
-    /**
-     * Same as KomplexeZahl.add but static
-     * @param addend
-     * @return
-     */
-    public static KomplexeZahl adds(KomplexeZahl addend){
-        KomplexeZahl add = new KomplexeZahl(
-                re + addend.getRe(),
-                im + addend.getIm()
-        );
-        return add;
-    }
 
-    /**
-     * same as KomplexeZahl.prod but static
-     * @param multi
-     * @return
-     */
-    public static KomplexeZahl prod(KomplexeZahl multi){
-        KomplexeZahl mult = new KomplexeZahl(
-                (re * multi.getRe()) - (im * multi.getIm()),
-                (re * multi.getIm()) + (im * multi.getRe())
-        );
-        return mult;
-    }
 }
