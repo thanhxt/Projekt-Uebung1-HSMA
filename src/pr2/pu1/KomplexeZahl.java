@@ -54,6 +54,7 @@ public class KomplexeZahl {
         System.out.print("x = " + x.toString());
     }
 
+    
     /**
      * setter and getter Methods
      * @return re and im
